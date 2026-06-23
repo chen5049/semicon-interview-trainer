@@ -7,6 +7,7 @@ It includes bilingual English / Traditional Chinese questions covering:
 - Photolithography / 微影
 - Diffusion and ion implantation / 擴散與離子佈植
 - Etching / 蝕刻
+- Dry Etching / 乾式蝕刻
 - Thin films / 薄膜
 - Defect analysis and root-cause investigation / 缺陷分析與根因調查
 
@@ -22,6 +23,7 @@ Semiconductor interviews often require candidates to explain process concepts cl
 - Difficulty filtering
 - Immediate reference answers
 - Score tracking
+- 23 bilingual interview questions, including a 15-question Dry Etching module
 - JSON-based question bank that is easy to expand
 - Automated tests and GitHub Actions CI
 
@@ -45,6 +47,12 @@ Choose a topic:
 
 ```bash
 semicon-trainer quiz --topic lithography
+```
+
+Practise the Dry Etching module:
+
+```bash
+semicon-trainer quiz --topic dry-etching --language zh-TW --count 5
 ```
 
 Choose language and difficulty:

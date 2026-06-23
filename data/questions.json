@@ -70,5 +70,140 @@
     "prompt_zh_tw": "若其中一條塗佈軌道的粒子突然增加，你會如何進行根因分析？",
     "answer_en": "First contain affected lots and confirm the measurement. Then compare the two tracks by time, module, recipe, material lot, filter age, pump pressure, dispense stability, nozzle condition, cup cleanliness, exhaust, and maintenance history. Use split tests and one-factor-at-a-time checks to isolate the dominant variable.",
     "answer_zh_tw": "首先管制受影響批次並確認量測結果，再依時間、模組、程式、材料批號、濾心使用時間、泵浦壓力、供液穩定性、噴嘴狀況、杯體潔淨度、排氣與保養紀錄比較兩條軌道。接著透過 split test 與單因子驗證找出主要變因。"
+  },
+  {
+    "id": "dry-etch-001",
+    "topic": "dry-etching",
+    "difficulty": "beginner",
+    "prompt_en": "What is dry etching in semiconductor manufacturing?",
+    "prompt_zh_tw": "半導體製造中的乾式蝕刻是什麼？",
+    "answer_en": "Dry etching removes selected material from a wafer using reactive gases, plasma, ion bombardment, or a combination of chemical and physical mechanisms. It is widely used when directional profile control and small feature sizes are required.",
+    "answer_zh_tw": "乾式蝕刻利用反應氣體、電漿、離子轟擊，或化學與物理機制的組合，選擇性移除晶圓上的材料。當製程需要良好的方向性輪廓控制與微小線寬時，通常會採用乾式蝕刻。"
+  },
+  {
+    "id": "dry-etch-002",
+    "topic": "dry-etching",
+    "difficulty": "beginner",
+    "prompt_en": "What is the main difference between wet etching and dry etching?",
+    "prompt_zh_tw": "濕式蝕刻與乾式蝕刻的主要差異是什麼？",
+    "answer_en": "Wet etching mainly uses liquid chemicals and is often isotropic. Dry etching uses gases or plasma and can combine chemical reactions with directional ion bombardment, allowing better anisotropy and critical-dimension control.",
+    "answer_zh_tw": "濕式蝕刻主要使用液態化學藥液，而且通常較偏向等向性；乾式蝕刻則使用氣體或電漿，並可結合化學反應與具方向性的離子轟擊，因此通常能提供較佳的非等向性與關鍵尺寸控制。"
+  },
+  {
+    "id": "dry-etch-003",
+    "topic": "dry-etching",
+    "difficulty": "beginner",
+    "prompt_en": "What is plasma, and why is it useful in dry etching?",
+    "prompt_zh_tw": "什麼是電漿？為什麼它適合用於乾式蝕刻？",
+    "answer_en": "Plasma is an ionized gas containing electrons, ions, radicals, and neutral species. In dry etching, it generates reactive species for chemical removal and charged ions that can be accelerated toward the wafer for directional bombardment.",
+    "answer_zh_tw": "電漿是含有電子、離子、自由基與中性粒子的游離氣體。在乾式蝕刻中，電漿可產生活性物種進行化學反應，也可使帶電離子朝晶圓方向加速，形成具方向性的轟擊作用。"
+  },
+  {
+    "id": "dry-etch-004",
+    "topic": "dry-etching",
+    "difficulty": "beginner",
+    "prompt_en": "What is Reactive Ion Etching (RIE)?",
+    "prompt_zh_tw": "什麼是反應性離子蝕刻（RIE）？",
+    "answer_en": "RIE is a plasma dry-etch technique that combines chemical reactions from reactive species with physical ion bombardment. The combination improves directionality compared with purely chemical plasma etching.",
+    "answer_zh_tw": "反應性離子蝕刻是一種電漿乾式蝕刻技術，結合活性物種的化學反應與離子的物理轟擊。相較於單純的化學式電漿蝕刻，這種組合能提升蝕刻方向性。"
+  },
+  {
+    "id": "dry-etch-005",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "How does ICP-RIE differ from conventional RIE?",
+    "prompt_zh_tw": "ICP-RIE 與傳統 RIE 有什麼差異？",
+    "answer_en": "Conventional RIE commonly uses one RF system, so plasma density and ion energy are more strongly coupled. ICP-RIE uses a separate inductive source to generate high-density plasma and a substrate bias to control ion energy, providing a wider process window for etch rate, selectivity, profile, and damage control.",
+    "answer_zh_tw": "傳統 RIE 通常使用單一 RF 系統，因此電漿密度與離子能量的耦合較強。ICP-RIE 則以獨立的感應式電漿源產生高密度電漿，再利用基板偏壓控制離子能量，因此在蝕刻速率、選擇比、輪廓與損傷控制方面具有較寬的製程窗口。"
+  },
+  {
+    "id": "dry-etch-006",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "What are etch rate and selectivity?",
+    "prompt_zh_tw": "什麼是蝕刻速率與選擇比？",
+    "answer_en": "Etch rate is the thickness of material removed per unit time. Selectivity is the ratio of the etch rate of the target material to that of another material, such as the mask, stop layer, or underlying film. High selectivity protects non-target materials.",
+    "answer_zh_tw": "蝕刻速率是單位時間內被移除的材料厚度。選擇比則是目標材料的蝕刻速率與另一種材料，例如光阻、硬遮罩、停止層或下層薄膜之蝕刻速率的比值。高選擇比有助於保護非目標材料。"
+  },
+  {
+    "id": "dry-etch-007",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "How is anisotropic etching achieved in a plasma process?",
+    "prompt_zh_tw": "電漿製程如何達成非等向性蝕刻？",
+    "answer_en": "Anisotropy is produced mainly by directional ion acceleration across the plasma sheath toward the wafer. Sidewall passivation can further suppress lateral chemical etching, while ions remove the passivation more effectively from horizontal surfaces.",
+    "answer_zh_tw": "非等向性主要來自離子跨越電漿鞘層後朝晶圓方向加速。側壁鈍化層也能抑制橫向化學蝕刻，而離子會較有效地移除水平表面上的鈍化層，因此可形成較垂直的輪廓。"
+  },
+  {
+    "id": "dry-etch-008",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "What is endpoint detection, and why is it important?",
+    "prompt_zh_tw": "什麼是蝕刻終點偵測？為什麼它很重要？",
+    "answer_en": "Endpoint detection determines when the target film has been cleared. Methods such as optical emission spectroscopy monitor changes in plasma emission associated with reaction products or exposed materials. Accurate endpoint control reduces under-etch, excessive over-etch, CD loss, and damage to underlying layers.",
+    "answer_zh_tw": "蝕刻終點偵測用來判斷目標薄膜何時已被完全清除。光學放射光譜等方法可監測與反應產物或新暴露材料相關的電漿放射變化。精準的終點控制能降低蝕刻不足、過度 over-etch、關鍵尺寸損失與下層損傷。"
+  },
+  {
+    "id": "dry-etch-009",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "Why is chamber seasoning used before processing production wafers?",
+    "prompt_zh_tw": "為什麼在處理量產晶圓前要進行腔體 seasoning？",
+    "answer_en": "Seasoning conditions the chamber wall with a controlled surface film so that radical loss, wall reactions, and contamination become more stable. This improves wafer-to-wafer repeatability after chamber cleaning or maintenance.",
+    "answer_zh_tw": "Seasoning 會在腔體壁面形成受控制的表面膜，使自由基損失、壁面反應與污染狀態趨於穩定。這有助於改善腔體清潔或保養後的片對片重複性。"
+  },
+  {
+    "id": "dry-etch-010",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "What are loading effect and microloading in dry etching?",
+    "prompt_zh_tw": "乾式蝕刻中的 loading effect 與 microloading 是什麼？",
+    "answer_en": "Loading effect is a change in etch behavior caused by the total exposed area or pattern density on a wafer or lot. Microloading is the local variation between dense and isolated patterns. Both can arise from reactant depletion, by-product transport, and local plasma conditions.",
+    "answer_zh_tw": "Loading effect 是因晶圓或批次上的總暴露面積或圖形密度不同而造成的蝕刻行為變化。Microloading 則是密集圖形與孤立圖形之間的局部差異。兩者都可能源自反應物耗盡、副產物傳輸與局部電漿條件的差異。"
+  },
+  {
+    "id": "dry-etch-011",
+    "topic": "dry-etching",
+    "difficulty": "intermediate",
+    "prompt_en": "How can excessive ion energy affect the wafer during dry etching?",
+    "prompt_zh_tw": "乾式蝕刻中的離子能量過高會如何影響晶圓？",
+    "answer_en": "Excessive ion energy can increase physical sputtering, mask erosion, substrate damage, charging damage, lattice defects, and loss of selectivity. It may improve anisotropy or remove residues, but the bias must be balanced against profile and device-damage risks.",
+    "answer_zh_tw": "離子能量過高可能增加物理濺射、遮罩耗損、基板損傷、充電損傷、晶格缺陷與選擇比下降。雖然較高偏壓可能提升非等向性或協助移除殘留物，但必須在輪廓控制與元件損傷風險之間取得平衡。"
+  },
+  {
+    "id": "dry-etch-012",
+    "topic": "dry-etching",
+    "difficulty": "advanced",
+    "prompt_en": "What is aspect-ratio-dependent etching (ARDE), also called RIE lag?",
+    "prompt_zh_tw": "什麼是深寬比相關蝕刻（ARDE），也稱為 RIE lag？",
+    "answer_en": "ARDE is the variation of etch rate or profile with feature aspect ratio. Narrow or deep features often etch more slowly because transport of radicals and ions into the feature is restricted and removal of reaction by-products becomes more difficult.",
+    "answer_zh_tw": "深寬比相關蝕刻是指蝕刻速率或輪廓會隨圖形深寬比而改變。較窄或較深的結構通常蝕刻較慢，原因包括自由基與離子進入結構內部的傳輸受限，以及反應副產物較難排出。"
+  },
+  {
+    "id": "dry-etch-013",
+    "topic": "dry-etching",
+    "difficulty": "advanced",
+    "prompt_en": "What causes notching or footing near the bottom of an etched feature?",
+    "prompt_zh_tw": "蝕刻結構底部附近的 notching 或 footing 通常由什麼造成？",
+    "answer_en": "Notching or footing can result from charge accumulation near an insulating interface, which deflects incoming ions toward the sidewall. Over-etch time, ion angular distribution, local electric fields, and insufficient sidewall protection can make the defect worse.",
+    "answer_zh_tw": "Notching 或 footing 可能源自絕緣層介面附近的電荷累積，使入射離子偏轉並轟擊側壁。過長的 over-etch、離子入射角分布、局部電場與側壁保護不足都可能使缺陷惡化。"
+  },
+  {
+    "id": "dry-etch-014",
+    "topic": "dry-etching",
+    "difficulty": "advanced",
+    "prompt_en": "A trench profile shows sidewall bowing. What process factors would you investigate?",
+    "prompt_zh_tw": "溝槽輪廓出現側壁 bowing 時，應調查哪些製程因素？",
+    "answer_en": "Investigate the balance between chemical etching, ion directionality, and sidewall passivation. Relevant factors include gas ratio, pressure, source power, bias power, wafer temperature, mask erosion, ion angular distribution, and polymer formation. Too little passivation or excessive lateral chemistry can widen the middle of the feature.",
+    "answer_zh_tw": "應調查化學蝕刻、離子方向性與側壁鈍化之間的平衡。相關因素包括氣體比例、壓力、電漿源功率、偏壓功率、晶圓溫度、遮罩耗損、離子角度分布與聚合物形成。鈍化不足或橫向化學反應過強，可能使結構中段變寬。"
+  },
+  {
+    "id": "dry-etch-015",
+    "topic": "dry-etching",
+    "difficulty": "advanced",
+    "prompt_en": "After chamber maintenance, etch rate becomes unstable and residues and particles increase. How would you troubleshoot the problem?",
+    "prompt_zh_tw": "腔體保養後，蝕刻速率不穩定且殘留物與粒子增加。你會如何進行問題排查？",
+    "answer_en": "First contain affected wafers and verify metrology. Review chamber-clean completion, seasoning history, replaced parts, leak rate, base pressure, gas delivery, RF matching, electrode temperature, backside helium cooling, and endpoint traces. Inspect for loose deposits, damaged seals, incorrect assembly, or contaminated consumables. Use monitor wafers and controlled split tests to separate chamber-condition, hardware, gas, and recipe effects.",
+    "answer_zh_tw": "首先管制受影響晶圓並確認量測結果。接著檢查腔體清潔是否完成、seasoning 紀錄、更換零件、漏率、基礎壓力、供氣、RF matching、電極溫度、背面氦氣冷卻與終點訊號。也應檢查沉積物剝落、密封件損壞、組裝錯誤或耗材污染。最後使用監控晶圓與受控制的 split test，區分腔體狀態、硬體、氣體與 recipe 的影響。"
   }
 ]

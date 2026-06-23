@@ -1,5 +1,3 @@
-from pathlib import Path
-
 import pytest
 
 from semicon_interview_trainer.quiz import (
@@ -11,7 +9,7 @@ from semicon_interview_trainer.quiz import (
 
 def test_load_questions():
     questions = load_questions()
-    assert len(questions) >= 5
+    assert len(questions) >= 23
     assert all(question.id for question in questions)
 
 
@@ -27,6 +25,30 @@ def test_filter_by_difficulty():
     result = filter_questions(questions, difficulty="beginner")
     assert result
     assert all(question.difficulty == "beginner" for question in result)
+
+
+def test_filter_dry_etching_questions():
+    questions = load_questions()
+    result = filter_questions(questions, topic="dry-etching")
+
+    assert len(result) == 15
+    assert all(question.topic == "dry-etching" for question in result)
+
+
+def test_dry_etching_difficulty_distribution():
+    questions = load_questions()
+    result = filter_questions(questions, topic="dry-etching")
+
+    counts = {
+        difficulty: sum(q.difficulty == difficulty for q in result)
+        for difficulty in ("beginner", "intermediate", "advanced")
+    }
+
+    assert counts == {
+        "beginner": 4,
+        "intermediate": 7,
+        "advanced": 4,
+    }
 
 
 def test_select_questions_is_repeatable():
