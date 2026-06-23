@@ -205,5 +205,68 @@
     "prompt_zh_tw": "腔體保養後，蝕刻速率不穩定且殘留物與粒子增加。你會如何進行問題排查？",
     "answer_en": "First contain affected wafers and verify metrology. Review chamber-clean completion, seasoning history, replaced parts, leak rate, base pressure, gas delivery, RF matching, electrode temperature, backside helium cooling, and endpoint traces. Inspect for loose deposits, damaged seals, incorrect assembly, or contaminated consumables. Use monitor wafers and controlled split tests to separate chamber-condition, hardware, gas, and recipe effects.",
     "answer_zh_tw": "首先管制受影響晶圓並確認量測結果。接著檢查腔體清潔是否完成、seasoning 紀錄、更換零件、漏率、基礎壓力、供氣、RF matching、電極溫度、背面氦氣冷卻與終點訊號。也應檢查沉積物剝落、密封件損壞、組裝錯誤或耗材污染。最後使用監控晶圓與受控制的 split test，區分腔體狀態、硬體、氣體與 recipe 的影響。"
+  },
+  {
+    "id": "ion-implantation-001",
+    "topic": "ion-implantation",
+    "difficulty": "beginner",
+    "prompt_en": "What is the purpose of ion implantation in semiconductor manufacturing?",
+    "prompt_zh_tw": "半導體製造中離子佈植的用途是什麼？",
+    "answer_en": "Ion implantation introduces a controlled amount of dopant into selected wafer regions by accelerating ions toward the surface. It provides precise control of dopant dose and depth and is commonly used to form wells, source/drain regions, threshold-adjust implants, and other electrical structures.",
+    "answer_zh_tw": "離子佈植是將帶電摻雜離子加速並射入晶圓指定區域，以導入受控制的摻雜量。它能精準控制摻雜劑量與深度，常用於形成 well、source/drain、臨界電壓調整佈植及其他電性結構。"
+  },
+  {
+    "id": "ion-implantation-002",
+    "topic": "ion-implantation",
+    "difficulty": "beginner",
+    "prompt_en": "What is the difference between implant dose and implant energy?",
+    "prompt_zh_tw": "離子佈植的 dose 與 energy 有什麼差別？",
+    "answer_en": "Dose is the number of implanted ions per unit area and mainly controls the total dopant quantity. Implant energy determines how deeply the ions penetrate and strongly affects the projected range and dopant profile.",
+    "answer_zh_tw": "Dose 是單位面積內導入的離子數量，主要控制總摻雜量；implant energy 則決定離子進入晶圓的深度，並明顯影響 projected range 與摻雜濃度分布。"
+  },
+  {
+    "id": "ion-implantation-003",
+    "topic": "ion-implantation",
+    "difficulty": "intermediate",
+    "prompt_en": "What is ion channeling, and how can it be reduced?",
+    "prompt_zh_tw": "什麼是離子 channeling？可以如何降低？",
+    "answer_en": "Channeling occurs when implanted ions travel unusually deep along open crystallographic directions with fewer collisions. It can be reduced by wafer tilt and twist, using a screen oxide, selecting suitable crystal orientation, or applying a pre-amorphization implant when appropriate.",
+    "answer_zh_tw": "Channeling 是指離子沿晶體中較開放的晶向前進，因碰撞較少而穿透得比預期更深。可透過晶圓 tilt 與 twist、使用 screen oxide、選擇合適晶向，或在適當情況下採用 pre-amorphization implant 來降低。"
+  },
+  {
+    "id": "ion-implantation-004",
+    "topic": "ion-implantation",
+    "difficulty": "intermediate",
+    "prompt_en": "Why is annealing required after ion implantation?",
+    "prompt_zh_tw": "為什麼離子佈植後需要進行退火？",
+    "answer_en": "Ion implantation damages the crystal lattice and leaves many dopant atoms in electrically inactive positions. Annealing repairs implantation-induced damage and moves dopants onto substitutional lattice sites so they become electrically active. The anneal also redistributes the dopant profile to some extent.",
+    "answer_zh_tw": "離子佈植會造成晶格損傷，且許多摻雜原子最初位於無法有效導電的位置。退火可修復佈植造成的損傷，並使摻雜原子進入 substitutional lattice site 而被電性活化；同時也會在一定程度上改變摻雜分布。"
+  },
+  {
+    "id": "diffusion-003",
+    "topic": "diffusion",
+    "difficulty": "intermediate",
+    "prompt_en": "What is thermal budget, and why is it important for dopant diffusion?",
+    "prompt_zh_tw": "什麼是 thermal budget？為什麼它對摻雜擴散很重要？",
+    "answer_en": "Thermal budget describes the combined effect of process temperature and time across thermal steps. Because dopant diffusivity rises strongly with temperature, excessive thermal budget can deepen junctions, broaden concentration profiles, and change device electrical characteristics.",
+    "answer_zh_tw": "Thermal budget 是各熱製程步驟中溫度與時間的綜合影響。由於摻雜擴散係數會隨溫度大幅增加，過高的 thermal budget 可能使接面變深、濃度分布變寬，並改變元件電性。"
+  },
+  {
+    "id": "diffusion-004",
+    "topic": "diffusion",
+    "difficulty": "advanced",
+    "prompt_en": "After implantation and annealing, sheet resistance is higher than expected. What causes would you investigate?",
+    "prompt_zh_tw": "離子佈植與退火後，sheet resistance 高於預期時，應調查哪些原因？",
+    "answer_en": "Investigate implant dose accuracy, beam current integration, implant energy, wafer charging, mask or screen-layer thickness, dopant activation, anneal temperature and time, equipment calibration, contamination, and metrology repeatability. A low active carrier concentration or an overly shallow or incomplete implant profile can increase sheet resistance.",
+    "answer_zh_tw": "應調查佈植 dose 準確性、beam current 積分、implant energy、晶圓 charging、遮罩或 screen layer 厚度、摻雜活化率、退火溫度與時間、設備校正、污染及量測重複性。有效載子濃度過低，或佈植分布過淺／不完整，都可能造成 sheet resistance 偏高。"
+  },
+  {
+    "id": "diffusion-005",
+    "topic": "diffusion",
+    "difficulty": "advanced",
+    "prompt_en": "A junction is deeper than expected after thermal processing. How would you troubleshoot the problem?",
+    "prompt_zh_tw": "熱製程後接面深度比預期更深時，你會如何進行問題排查？",
+    "answer_en": "Review the full thermal history, actual furnace or RTP temperature, process time, ramp and cool-down behavior, dopant species, implant damage, oxidation conditions, wafer loading, and recipe changes. Also investigate transient enhanced diffusion, temperature-calibration drift, and unexpected hold time. Confirm the result with an independent profile measurement when possible.",
+    "answer_zh_tw": "應檢查完整熱歷史、furnace 或 RTP 的實際溫度、製程時間、升降溫行為、摻雜種類、佈植損傷、氧化條件、晶圓載入量與 recipe 變更。同時也要調查 transient enhanced diffusion、溫度校正漂移及非預期 hold time，並盡可能使用獨立的濃度剖面量測確認結果。"
   }
 ]
