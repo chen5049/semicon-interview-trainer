@@ -1,0 +1,74 @@
+[
+  {
+    "id": "litho-001",
+    "topic": "lithography",
+    "difficulty": "beginner",
+    "prompt_en": "What is the purpose of photolithography in semiconductor manufacturing?",
+    "prompt_zh_tw": "半導體製造中的微影製程有什麼用途？",
+    "answer_en": "Photolithography transfers a geometric pattern from a mask or reticle onto a photoresist-coated wafer so that later processes such as etching, implantation, or deposition can selectively modify specific regions.",
+    "answer_zh_tw": "微影製程是將光罩或光罩板上的幾何圖案轉移到塗有光阻的晶圓上，使後續蝕刻、離子佈植或薄膜製程能選擇性地處理特定區域。"
+  },
+  {
+    "id": "litho-002",
+    "topic": "lithography",
+    "difficulty": "intermediate",
+    "prompt_en": "Why can an over-thick photoresist film reduce lithography process margin?",
+    "prompt_zh_tw": "為什麼過厚的光阻膜可能降低微影製程窗口？",
+    "answer_en": "A thicker resist can worsen depth of focus, increase standing-wave and focus sensitivity, make development less uniform, and reduce pattern fidelity for small features. It may also require higher exposure dose.",
+    "answer_zh_tw": "較厚的光阻可能使景深變差、增加駐波與焦距敏感度、造成顯影不均，並降低小尺寸圖形的保真度，同時也可能需要更高曝光劑量。"
+  },
+  {
+    "id": "diffusion-001",
+    "topic": "diffusion",
+    "difficulty": "beginner",
+    "prompt_en": "What is diffusion in semiconductor processing?",
+    "prompt_zh_tw": "半導體製程中的擴散是什麼？",
+    "answer_en": "Diffusion is the thermally activated movement of dopant atoms within a semiconductor crystal, usually from regions of high concentration to low concentration.",
+    "answer_zh_tw": "擴散是摻雜原子在半導體晶格中受熱能驅動而移動的現象，通常由高濃度區域往低濃度區域移動。"
+  },
+  {
+    "id": "diffusion-002",
+    "topic": "diffusion",
+    "difficulty": "intermediate",
+    "prompt_en": "What is a slip line, and under what conditions can it form?",
+    "prompt_zh_tw": "什麼是 slip line？它通常在什麼情況下形成？",
+    "answer_en": "A slip line is a visible trace of plastic deformation caused by dislocation movement along crystallographic slip planes. It can form when thermal stress exceeds the wafer's critical resolved shear stress, especially during rapid heating or cooling, large temperature gradients, heavy wafer loading, or mechanical constraint.",
+    "answer_zh_tw": "Slip line 是晶圓因差排沿特定晶體滑移面移動而產生的塑性變形痕跡。當熱應力超過晶圓的臨界解析剪應力時便可能形成，常見於快速升降溫、溫度梯度過大、晶圓承載過重或受到機械限制的情況。"
+  },
+  {
+    "id": "etch-001",
+    "topic": "etch",
+    "difficulty": "beginner",
+    "prompt_en": "What is the difference between isotropic and anisotropic etching?",
+    "prompt_zh_tw": "等向性蝕刻與非等向性蝕刻有什麼差別？",
+    "answer_en": "Isotropic etching proceeds at similar rates in all directions and can cause lateral undercut. Anisotropic etching is directionally selective and is used to create straighter sidewalls and smaller critical dimensions.",
+    "answer_zh_tw": "等向性蝕刻在各方向的蝕刻速率相近，因此容易產生側向底切；非等向性蝕刻具有方向選擇性，可形成較垂直的側壁並維持較小的關鍵尺寸。"
+  },
+  {
+    "id": "etch-002",
+    "topic": "etch",
+    "difficulty": "advanced",
+    "prompt_en": "A defect appears only after etch and is not visible after develop inspection. What lithography-side causes should be investigated?",
+    "prompt_zh_tw": "缺陷只在蝕刻後出現，顯影後檢查無法看到。應調查哪些微影端原因？",
+    "answer_en": "Investigate marginal resist thickness, latent scumming, poor adhesion, local focus or dose variation, post-exposure bake nonuniformity, develop residue below inspection sensitivity, resist footing, and local pattern collapse. These can become amplified during plasma etch.",
+    "answer_zh_tw": "可調查局部光阻厚度不足、極薄殘膠、附著力不良、局部焦距或曝光劑量偏差、曝光後烘烤不均、低於檢測靈敏度的顯影殘留、光阻 footing，以及局部圖形倒塌。這些問題可能在電漿蝕刻時被放大。"
+  },
+  {
+    "id": "thinfilm-001",
+    "topic": "thin-film",
+    "difficulty": "beginner",
+    "prompt_en": "What is the difference between CVD and PVD?",
+    "prompt_zh_tw": "CVD 與 PVD 有什麼差別？",
+    "answer_en": "CVD forms a film through chemical reactions of gaseous precursors on or near the wafer surface. PVD deposits material physically, commonly by sputtering or evaporation. CVD generally offers better conformality, while PVD is often used for metals and directional deposition.",
+    "answer_zh_tw": "CVD 是藉由氣相前驅物在晶圓表面或附近發生化學反應形成薄膜；PVD 則以濺鍍或蒸鍍等物理方式沉積材料。CVD 通常具有較佳覆蓋性，而 PVD 常用於金屬與較具方向性的沉積。"
+  },
+  {
+    "id": "defect-001",
+    "topic": "defect-analysis",
+    "difficulty": "intermediate",
+    "prompt_en": "How would you structure a root-cause analysis for a sudden particle increase on one coater track?",
+    "prompt_zh_tw": "若其中一條塗佈軌道的粒子突然增加，你會如何進行根因分析？",
+    "answer_en": "First contain affected lots and confirm the measurement. Then compare the two tracks by time, module, recipe, material lot, filter age, pump pressure, dispense stability, nozzle condition, cup cleanliness, exhaust, and maintenance history. Use split tests and one-factor-at-a-time checks to isolate the dominant variable.",
+    "answer_zh_tw": "首先管制受影響批次並確認量測結果，再依時間、模組、程式、材料批號、濾心使用時間、泵浦壓力、供液穩定性、噴嘴狀況、杯體潔淨度、排氣與保養紀錄比較兩條軌道。接著透過 split test 與單因子驗證找出主要變因。"
+  }
+]
